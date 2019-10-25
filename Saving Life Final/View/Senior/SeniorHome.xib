@@ -12,7 +12,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SeniorHome">
             <connections>
+                <outlet property="LogoutBTN" destination="F2e-b6-cqg" id="znx-5a-3mO"/>
+                <outlet property="SettingBTN" destination="eXq-BL-Lf5" id="SD8-NA-jTP"/>
+                <outlet property="imgPicker" destination="0mQ-FS-u7p" id="XOf-h4-EF4"/>
                 <outlet property="profileIMG" destination="IbW-7t-ptn" id="RdZ-zv-OgX"/>
+                <outlet property="qrBTN" destination="kCk-W0-zRa" id="2O8-r3-hbq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,7 +25,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2453" translatesAutoresizingMaskIntoConstraints="NO" id="IaP-r0-tW9">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="85294" translatesAutoresizingMaskIntoConstraints="NO" id="IaP-r0-tW9">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <constraints>
@@ -31,7 +35,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iHF-ta-fWk" customClass="DesignableView" customModule="Saving_Life_Final" customModuleProvider="target">
                     <rect key="frame" x="82" y="44" width="250" height="250"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_8850" translatesAutoresizingMaskIntoConstraints="NO" id="IbW-7t-ptn">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smiling-doodle-face" translatesAutoresizingMaskIntoConstraints="NO" id="IbW-7t-ptn">
                             <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="250" id="EE1-Vy-7Hz"/>
@@ -48,7 +52,7 @@
                             </constraints>
                             <state key="normal" image="icons8-camera-500"/>
                             <connections>
-                                <action selector="imgPicker:" destination="-1" eventType="touchUpInside" id="rjy-lW-S6t"/>
+                                <action selector="imgPicker:" destination="-1" eventType="touchUpInside" id="dxa-BZ-NWd"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCk-W0-zRa">
@@ -148,12 +152,12 @@
         </view>
     </objects>
     <resources>
-        <image name="2453" width="5000" height="5000"/>
-        <image name="IMG_8850" width="300" height="212"/>
+        <image name="85294" width="4676" height="4676"/>
         <image name="Mascot_Transparent" width="1786" height="2082"/>
         <image name="icons8-camera-500" width="500" height="500"/>
         <image name="icons8-exit-512" width="512" height="512"/>
         <image name="icons8-qr-code-500" width="500" height="500"/>
         <image name="icons8-services-500" width="500" height="500"/>
+        <image name="smiling-doodle-face" width="512" height="512"/>
     </resources>
 </document>

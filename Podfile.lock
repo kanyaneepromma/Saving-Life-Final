@@ -1,0 +1,146 @@
+PODS:
+  - EFQRCode (5.0.0):
+    - swift_qrcodejs (~> 1.1.1)
+  - EstimoteIndoorSDK (2.7.1):
+    - EstimoteSDK (~> 4.16.0)
+  - EstimoteSDK (4.16.2)
+  - Firebase/Auth (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.3.0)
+  - Firebase/CoreOnly (5.16.0):
+    - FirebaseCore (= 5.2.0)
+  - Firebase/Database (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.1.0)
+  - Firebase/Storage (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.1.0)
+  - FirebaseAuth (5.3.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.2.0):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.1.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - leveldb-library (~> 1.18)
+  - FirebaseStorage (3.1.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Floaty (4.1.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GoogleUtilities/Environment (5.3.7)
+  - GoogleUtilities/Logger (5.3.7):
+    - GoogleUtilities/Environment
+  - GTMSessionFetcher/Core (1.2.1)
+  - Instructions (1.3.0)
+  - JSSAlertView (4.2.0)
+  - Kingfisher (5.3.1)
+  - leveldb-library (1.20)
+  - Navigation-Toolbar (1.0.0)
+  - paper-onboarding (6.1.3)
+  - PMSuperButton (2.2.0)
+  - Presentr (1.9)
+  - RAMPaperSwitch (3.0.0)
+  - swift_qrcodejs (1.1.1)
+  - SwiftyGif (4.2.0)
+  - SwiftyJSON (4.3.0)
+  - TextFieldEffects (1.5.1)
+
+DEPENDENCIES:
+  - EFQRCode
+  - EstimoteIndoorSDK
+  - Firebase/Auth
+  - Firebase/Database
+  - Firebase/Storage
+  - Floaty
+  - GoogleSignIn
+  - Instructions (~> 1.3.0)
+  - JSSAlertView
+  - Kingfisher (~> 5.0)
+  - Navigation-Toolbar
+  - paper-onboarding
+  - PMSuperButton
+  - Presentr (~> 1.9)
+  - RAMPaperSwitch
+  - SwiftyGif
+  - SwiftyJSON (~> 4.0)
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - EFQRCode
+    - EstimoteIndoorSDK
+    - EstimoteSDK
+    - Firebase
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseStorage
+    - Floaty
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - Instructions
+    - JSSAlertView
+    - Kingfisher
+    - leveldb-library
+    - Navigation-Toolbar
+    - paper-onboarding
+    - PMSuperButton
+    - Presentr
+    - RAMPaperSwitch
+    - swift_qrcodejs
+    - SwiftyGif
+    - SwiftyJSON
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  EFQRCode: 07437cfbce3a1e497397a4f3d766c980d8972608
+  EstimoteIndoorSDK: 53eaf12601b855f1d7eea7ae930d3fb8f66fb71d
+  EstimoteSDK: 17d0778be064419dd905f41981f831052f4c19ee
+  Firebase: 749a8ff4962f9d8c79dda1966de20f6f77583d67
+  FirebaseAuth: c9b3ff063c223d2841d97240af547ce511bce19a
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: ea2d1816723ef21492b8e9113303e1350db5e08c
+  FirebaseDatabase: 23acb0c53cd4d4070a427b60100b2e4aaa97c45d
+  FirebaseStorage: 29075f874c2b3cf61e5221a62c4ceefc809e5412
+  Floaty: 1a4e213f3512cf3045ef9cb0c1ff456226d1f66a
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Instructions: fbbb0544d166d5c101c25b1ae58ff6da492cdddb
+  JSSAlertView: 84ec53a0cbcfaa25a09293751356afed09484023
+  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  Navigation-Toolbar: 48e9b9b7cb2b7c721ddb4051e6139465a04496f5
+  paper-onboarding: 47ded9ede6ae9dd7ec135dddd8bd3e170b79d799
+  PMSuperButton: 5e7b2eb79468dba1ced3fd00e47a7ce88a1fa664
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  RAMPaperSwitch: 9b81604ec2e7d6dda3fd2cbac53eb012f7a5cc87
+  swift_qrcodejs: 0bacbfe321a99954c7b8e04c75562007ea4e4f7c
+  SwiftyGif: a149bf84df23370592f3f075561ae02c8632a314
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
+
+PODFILE CHECKSUM: 41adddc4351e923a08fc3431ce56b9b41be883e6
+
+COCOAPODS: 1.8.4

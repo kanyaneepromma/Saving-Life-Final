@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="New Icon" translatesAutoresizingMaskIntoConstraints="NO" id="Etk-aL-Hx8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iCON2" translatesAutoresizingMaskIntoConstraints="NO" id="Etk-aL-Hx8">
                                 <rect key="frame" x="62.5" y="208.5" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="VGr-yj-Xwa"/>
@@ -27,7 +27,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.54533587195770983" green="0.79935150912898711" blue="0.97910199824928634" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Etk-aL-Hx8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Hn-ZD-etn"/>
                             <constraint firstItem="Etk-aL-Hx8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62.5" id="OHC-kl-ml5"/>
@@ -42,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="New Icon" width="500" height="500"/>
+        <image name="iCON2" width="500" height="500"/>
     </resources>
 </document>

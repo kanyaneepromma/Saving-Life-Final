@@ -45,3 +45,6 @@ class GradientView: UIView {
         updateColors()
     }
 }
+class launchScreen: UIViewController{
+    
+}

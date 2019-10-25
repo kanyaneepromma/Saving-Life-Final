@@ -11,7 +11,8 @@ import UIKit
 class Welcome: UIViewController {
 
     @IBAction func startBTN(_ sender: Any) {
-        self.present(UINavigationController(rootViewController: Input()), animated: true, completion: nil)
+        self.navigationController?.pushViewController(Input(), animated: true)
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="FC Knomphing Regular.otf">
+            <string>FCKnomphingRegular</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Welcome" customModule="Saving_Life_Final" customModuleProvider="target">
             <connections>
@@ -17,38 +20,28 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUG-t5-UMH" customClass="GradientView" customModule="Saving_Life_Final" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="-0.5" width="414.5" height="896.5"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fI-ib-ugI">
-                            <rect key="frame" x="66" y="293" width="282.5" height="351.5"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon3" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K13-Sl-scC">
+                            <rect key="frame" x="37.666666666666657" y="30" width="300" height="300"/>
                             <constraints>
-                                <constraint firstAttribute="width" secondItem="4fI-ib-ugI" secondAttribute="height" multiplier="1:1" constant="-69" id="Zcm-x5-h3o"/>
+                                <constraint firstAttribute="height" constant="300" id="6WM-Ib-kTE"/>
+                                <constraint firstAttribute="width" constant="300" id="BU7-qW-o5S"/>
+                                <constraint firstAttribute="width" secondItem="K13-Sl-scC" secondAttribute="height" multiplier="1:1" id="pDO-4n-lRa"/>
                             </constraints>
-                            <string key="text">ยินดีต้อนรับเข้าสู่ 
-Saving Life
-ที่จะช่วยเหลือ
-อำนวยความสะดวกให้
-ทุกท่านไว้วางใจได้ว่า
-คนที่ท่านรักจะปลอดภัย
-ภายในบ้านของคุณ</string>
-                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                            <viewLayoutGuide key="safeArea" id="KlC-M7-Jrs"/>
+                        </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ui-rW-g5s" customClass="DesignableView" customModule="Saving_Life_Final" customModuleProvider="target">
-                            <rect key="frame" x="70.5" y="625.5" width="274" height="101"/>
+                            <rect key="frame" x="47.666666666666657" y="711" width="280" height="101"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhV-CM-GCz" customClass="PMSuperButton" customModule="PMSuperButton">
-                                    <rect key="frame" x="1" y="0.0" width="273" height="100"/>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhV-CM-GCz" customClass="PMSuperButton" customModule="PMSuperButton">
+                                    <rect key="frame" x="4" y="0.0" width="273" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" red="0.38668811320000002" green="0.79304122919999998" blue="0.98248833420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" secondItem="rhV-CM-GCz" secondAttribute="height" multiplier="1:1" constant="173" id="JJO-lb-rVV"/>
-                                        <constraint firstAttribute="height" constant="100" id="wyY-9x-Szy"/>
-                                    </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                     <state key="normal" title="  เริ่มต้นใช้งาน">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,22 +84,15 @@ Saving Life
                                         <action selector="startBTN:" destination="-1" eventType="touchUpInside" id="OHU-4n-DtA"/>
                                     </connections>
                                 </button>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iCON2" translatesAutoresizingMaskIntoConstraints="NO" id="NcU-RM-fH5">
-                                    <rect key="frame" x="167" y="5" width="100" height="90"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="100" id="i0d-wT-vco"/>
-                                    </constraints>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iCON2" translatesAutoresizingMaskIntoConstraints="NO" id="NcU-RM-fH5">
+                                    <rect key="frame" x="173" y="5" width="100" height="90"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="NcU-RM-fH5" secondAttribute="bottom" constant="6" id="GYO-HX-ZCg"/>
-                                <constraint firstAttribute="width" secondItem="1ui-rW-g5s" secondAttribute="height" multiplier="1:1" constant="173" id="Md1-Ck-oiG"/>
-                                <constraint firstAttribute="bottom" secondItem="rhV-CM-GCz" secondAttribute="bottom" constant="1" id="U35-Ew-J2U"/>
-                                <constraint firstItem="rhV-CM-GCz" firstAttribute="centerX" secondItem="1ui-rW-g5s" secondAttribute="centerX" constant="0.5" id="eDK-bp-rz0"/>
-                                <constraint firstItem="rhV-CM-GCz" firstAttribute="top" secondItem="1ui-rW-g5s" secondAttribute="top" id="oL1-he-V78"/>
-                                <constraint firstAttribute="trailing" secondItem="NcU-RM-fH5" secondAttribute="trailing" constant="7" id="sXp-6N-K4O"/>
-                                <constraint firstItem="NcU-RM-fH5" firstAttribute="top" secondItem="1ui-rW-g5s" secondAttribute="top" constant="5" id="yVv-tE-PQw"/>
+                                <constraint firstAttribute="width" constant="280" id="Vdi-gR-K5l"/>
+                                <constraint firstAttribute="height" constant="101" id="hUV-Gx-9pZ"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -123,45 +109,52 @@ Saving Life
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fI-ib-ugI">
+                            <rect key="frame" x="-19.666666666666657" y="340" width="415.33333333333326" height="433"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="415" id="cQI-a5-p28"/>
+                                <constraint firstAttribute="height" constant="433" id="ePi-aK-hvo"/>
+                            </constraints>
+                            <string key="text">ยินดีต้อนรับเข้าสู่ 
+Saving Life
+ที่จะช่วยเหลือ
+อำนวยความสะดวกให้
+ทุกท่านไว้วางใจได้ว่า
+คนที่ท่านรักจะปลอดภัย
+ภายในบ้านของคุณ</string>
+                            <fontDescription key="fontDescription" name="FCKnomphingRegular" family="FC Knomphing" pointSize="40"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="1ui-rW-g5s" firstAttribute="top" secondItem="4fI-ib-ugI" secondAttribute="bottom" constant="-19" id="JH5-1x-pac"/>
-                        <constraint firstItem="4fI-ib-ugI" firstAttribute="centerX" secondItem="iUG-t5-UMH" secondAttribute="centerX" id="TsW-UD-JqR"/>
-                        <constraint firstItem="1ui-rW-g5s" firstAttribute="centerX" secondItem="iUG-t5-UMH" secondAttribute="centerX" id="aKf-a4-7Xh"/>
-                        <constraint firstAttribute="width" secondItem="iUG-t5-UMH" secondAttribute="height" multiplier="1:1" constant="-482" id="gxF-iu-8eu"/>
-                        <constraint firstItem="4fI-ib-ugI" firstAttribute="leading" secondItem="iUG-t5-UMH" secondAttribute="leading" constant="66" id="jud-gz-cnJ"/>
-                        <constraint firstItem="4fI-ib-ugI" firstAttribute="top" secondItem="iUG-t5-UMH" secondAttribute="top" constant="293" id="vXw-5W-cd0"/>
+                        <constraint firstAttribute="bottom" secondItem="1ui-rW-g5s" secondAttribute="bottom" id="2AA-rI-WN1"/>
+                        <constraint firstItem="K13-Sl-scC" firstAttribute="centerX" secondItem="iUG-t5-UMH" secondAttribute="centerX" id="4MF-8X-7Qb"/>
+                        <constraint firstItem="4fI-ib-ugI" firstAttribute="top" secondItem="K13-Sl-scC" secondAttribute="bottom" constant="10" id="ZEP-1S-ng3"/>
+                        <constraint firstItem="1ui-rW-g5s" firstAttribute="centerX" secondItem="iUG-t5-UMH" secondAttribute="centerX" id="cEv-94-4yY"/>
+                        <constraint firstItem="K13-Sl-scC" firstAttribute="top" secondItem="iUG-t5-UMH" secondAttribute="top" constant="30" id="ggP-3y-nxp"/>
+                        <constraint firstItem="4fI-ib-ugI" firstAttribute="centerX" secondItem="iUG-t5-UMH" secondAttribute="centerX" constant="0.5" id="iMS-qi-GOZ"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="startColor">
-                            <color key="value" red="0.66900002960000005" green="0.88800001139999996" blue="0.99900001289999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="value" red="0.98974090814590454" green="0.75291177305317847" blue="0.70884505768486417" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="color" keyPath="endColor">
                             <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon3" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K13-Sl-scC">
-                    <rect key="frame" x="67" y="44" width="280" height="280"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="280" id="C5j-nU-w95"/>
-                        <constraint firstAttribute="width" secondItem="K13-Sl-scC" secondAttribute="height" multiplier="1:1" id="VYl-CE-CGI"/>
-                        <constraint firstAttribute="height" constant="280" id="maO-ye-6mx"/>
-                    </constraints>
-                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="iUG-t5-UMH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1bB-k7-QYQ"/>
-                <constraint firstItem="K13-Sl-scC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="67" id="K7Z-9Z-3hr"/>
-                <constraint firstItem="iUG-t5-UMH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XXB-W2-jy0"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="K13-Sl-scC" secondAttribute="trailing" constant="67" id="c82-dY-vfh"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="iUG-t5-UMH" secondAttribute="bottom" constant="-34" id="lIY-If-H32"/>
-                <constraint firstItem="K13-Sl-scC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="n8B-1h-39q"/>
+                <constraint firstAttribute="bottom" secondItem="iUG-t5-UMH" secondAttribute="bottom" id="1UW-Cv-PHl"/>
+                <constraint firstItem="iUG-t5-UMH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7G2-vc-NxL"/>
+                <constraint firstItem="iUG-t5-UMH" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="F9d-VB-ARO"/>
+                <constraint firstItem="iUG-t5-UMH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="onM-hf-ptU"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="47.826086956521742" y="72.991071428571431"/>
+            <point key="canvasLocation" x="47.65625" y="72.65625"/>
         </view>
     </objects>
     <resources>

@@ -29,3 +29,25 @@ var UID:String = ""
 //let SeniorUID = "0"
 let SeniorUID = Auth.auth().currentUser!.uid
 let CaregiverUID = Auth.auth().currentUser!.uid
+
+extension UIView {
+    internal func fillSuperview() {
+        guard let superview = superview else { return }
+        
+        self.topAnchor.constraint(equalTo: superview.topAnchor).isActive = true
+        self.bottomAnchor.constraint(equalTo: superview.bottomAnchor).isActive = true
+        self.leadingAnchor.constraint(equalTo: superview.leadingAnchor).isActive = true
+        self.trailingAnchor.constraint(equalTo: superview.trailingAnchor).isActive = true
+    }
+}
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}

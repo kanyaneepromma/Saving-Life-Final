@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,11 +41,16 @@
 		06836185225372F8009F3F05 /* Input.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06836183225372F8009F3F05 /* Input.xib */; };
 		068361882255A7DC009F3F05 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068361862255A7DC009F3F05 /* Choice.swift */; };
 		068361892255A7DC009F3F05 /* Choice.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068361872255A7DC009F3F05 /* Choice.xib */; };
+		06A90584227058F70062FA65 /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A90583227058F70062FA65 /* ScanQRViewController.swift */; };
 		06B7B9AA226B7D47000C0BE6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7B9A9226B7D47000C0BE6 /* Profile.swift */; };
 		06B7B9B0226B8394000C0BE6 /* SeniorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7B9AF226B8394000C0BE6 /* SeniorHome.swift */; };
 		06D5DBB72255E3850059897F /* SeniorHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D5DBB52255E3850059897F /* SeniorHome.xib */; };
 		06DAD5E42256FFD00058BDE5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAD5E32256FFD00058BDE5 /* API.swift */; };
 		06DAD5E6225701650058BDE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06DAD5E5225701650058BDE5 /* GoogleService-Info.plist */; };
+		06FE3192226D7C1900F5087F /* homeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE3190226D7C1900F5087F /* homeCell.swift */; };
+		06FE3193226D7C1900F5087F /* homeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FE3191226D7C1900F5087F /* homeCell.xib */; };
+		06FE3196226D7C3200F5087F /* dataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE3194226D7C3200F5087F /* dataCell.swift */; };
+		06FE3197226D7C3200F5087F /* dataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FE3195226D7C3200F5087F /* dataCell.xib */; };
 		06FE610C226CF8F900565B13 /* CareSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE610A226CF8F900565B13 /* CareSetting.swift */; };
 		06FE610D226CF8F900565B13 /* CareSetting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FE610B226CF8F900565B13 /* CareSetting.xib */; };
 		6C4192E9CFDCD31791FBDE27 /* Pods_Saving_Life_Final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48A0D266144BFF1CF3AD53 /* Pods_Saving_Life_Final.framework */; };
@@ -114,11 +119,17 @@
 		06836183225372F8009F3F05 /* Input.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Input.xib; sourceTree = "<group>"; };
 		068361862255A7DC009F3F05 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
 		068361872255A7DC009F3F05 /* Choice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Choice.xib; path = ../Controller/Choice.xib; sourceTree = "<group>"; };
+		069D1D9E2283D2E500BB8C78 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ObjCBridge.h; path = "Saving Life Final/ObjCBridge.h"; sourceTree = "<group>"; };
+		06A90583227058F70062FA65 /* ScanQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
 		06B7B9A9226B7D47000C0BE6 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		06B7B9AF226B8394000C0BE6 /* SeniorHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorHome.swift; sourceTree = "<group>"; };
 		06D5DBB52255E3850059897F /* SeniorHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeniorHome.xib; sourceTree = "<group>"; };
 		06DAD5E32256FFD00058BDE5 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		06DAD5E5225701650058BDE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06FE3190226D7C1900F5087F /* homeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeCell.swift; sourceTree = "<group>"; };
+		06FE3191226D7C1900F5087F /* homeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = homeCell.xib; sourceTree = "<group>"; };
+		06FE3194226D7C3200F5087F /* dataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataCell.swift; sourceTree = "<group>"; };
+		06FE3195226D7C3200F5087F /* dataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = dataCell.xib; sourceTree = "<group>"; };
 		06FE610A226CF8F900565B13 /* CareSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareSetting.swift; sourceTree = "<group>"; };
 		06FE610B226CF8F900565B13 /* CareSetting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CareSetting.xib; sourceTree = "<group>"; };
 		0A84065F908E6221D4709220 /* Pods_Saving_Life_FinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saving_Life_FinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +175,7 @@
 		063C688922487C1D00F298AD = {
 			isa = PBXGroup;
 			children = (
+				069D1D9E2283D2E500BB8C78 /* ObjCBridge.h */,
 				063D789E226BDE4300603A31 /* Fonts */,
 				063C689422487C1D00F298AD /* Saving Life Final */,
 				063C68AC22487C2000F298AD /* Saving Life FinalTests */,
@@ -188,7 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				063D78B6226C7FBD00603A31 /* Saving Life Final.entitlements */,
-				06FE3188226D669400F5087F /* Trash */,
+				06FE3188226D669400F5087F /* Weather */,
 				06B7B9A8226B7D11000C0BE6 /* Struct */,
 				065B36EE224B3A4600B84F73 /* Class */,
 				063C68CB22488BD300F298AD /* Controller */,
@@ -261,11 +273,12 @@
 		066D47B322535117007D2CFF /* Care  */ = {
 			isa = PBXGroup;
 			children = (
-				06024927226CF04B00EF0701 /* MiddleView.swift */,
-				0602491F226CEB7900EF0701 /* naviView.swift */,
+				06A90582227058A50062FA65 /* New Group */,
 				063D78B7226CCFE600603A31 /* CareHome.swift */,
 				06024923226CEF4E00EF0701 /* viewData.swift */,
+				06FE3198226D7C3D00F5087F /* Cell */,
 				06FE610A226CF8F900565B13 /* CareSetting.swift */,
+				06A90583227058F70062FA65 /* ScanQRViewController.swift */,
 			);
 			path = "Care ";
 			sourceTree = "<group>";
@@ -273,12 +286,30 @@
 		0683618A2255A7E9009F3F05 /* Care */ = {
 			isa = PBXGroup;
 			children = (
-				06024920226CEB7900EF0701 /* naviView.xib */,
+				06A905852271CA130062FA65 /* New Group */,
 				063D78BB226CE05D00603A31 /* CareHome.xib */,
 				06024924226CEF4E00EF0701 /* viewData.xib */,
+				06FE318F226D7BDA00F5087F /* Cell */,
 				06FE610B226CF8F900565B13 /* CareSetting.xib */,
 			);
 			path = Care;
+			sourceTree = "<group>";
+		};
+		06A90582227058A50062FA65 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				06024927226CF04B00EF0701 /* MiddleView.swift */,
+				0602491F226CEB7900EF0701 /* naviView.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		06A905852271CA130062FA65 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				06024920226CEB7900EF0701 /* naviView.xib */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		06B7B9A8226B7D11000C0BE6 /* Struct */ = {
@@ -311,13 +342,31 @@
 			path = Senior;
 			sourceTree = "<group>";
 		};
-		06FE3188226D669400F5087F /* Trash */ = {
+		06FE3188226D669400F5087F /* Weather */ = {
 			isa = PBXGroup;
 			children = (
 				062475BA226B3EDB000FF619 /* WeatherGetter.swift */,
 				062475C3226B75A1000FF619 /* Weather.swift */,
 			);
-			path = Trash;
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		06FE318F226D7BDA00F5087F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				06FE3191226D7C1900F5087F /* homeCell.xib */,
+				06FE3195226D7C3200F5087F /* dataCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		06FE3198226D7C3D00F5087F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				06FE3190226D7C1900F5087F /* homeCell.swift */,
+				06FE3194226D7C3200F5087F /* dataCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		19164BD26995115B27C33298 /* Frameworks */ = {
@@ -357,7 +406,6 @@
 				063C688E22487C1D00F298AD /* Sources */,
 				063C688F22487C1D00F298AD /* Frameworks */,
 				063C689022487C1D00F298AD /* Resources */,
-				06D5DBB12255BEF90059897F /* IBAnalyzer */,
 				56F834B99A5B6138B4A263D5 /* [CP] Embed Pods Frameworks */,
 				3C754EF2F70C6F25C8506200 /* [CP] Copy Pods Resources */,
 			);
@@ -428,10 +476,10 @@
 								enabled = 1;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Siri = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -477,6 +525,7 @@
 				065B36F6224CCEF900B84F73 /* GoogleSignin.xib in Resources */,
 				063D78BC226CE05D00603A31 /* CareHome.xib in Resources */,
 				06836185225372F8009F3F05 /* Input.xib in Resources */,
+				06FE3193226D7C1900F5087F /* homeCell.xib in Resources */,
 				063D7899226BCFCF00603A31 /* QRView.xib in Resources */,
 				063C68A322487C1F00F298AD /* LaunchScreen.storyboard in Resources */,
 				06FE610D226CF8F900565B13 /* CareSetting.xib in Resources */,
@@ -486,6 +535,7 @@
 				06024922226CEB7900EF0701 /* naviView.xib in Resources */,
 				063C68A022487C1F00F298AD /* Assets.xcassets in Resources */,
 				06024926226CEF4E00EF0701 /* viewData.xib in Resources */,
+				06FE3197226D7C3200F5087F /* dataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,24 +556,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06D5DBB12255BEF90059897F /* IBAnalyzer */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = IBAnalyzer;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/IBAnalyzer/bin/ibanalyzer\" ./\n\n";
-		};
 		156083ED5C465F4C8FE88A40 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -574,20 +606,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		56F834B99A5B6138B4A263D5 /* [CP] Embed Pods Frameworks */ = {
@@ -596,48 +623,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/EFQRCode/EFQRCode.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/JSSAlertView/JSSAlertView.framework",
-				"${BUILT_PRODUCTS_DIR}/Navigation-Toolbar/Navigation_Toolbar.framework",
-				"${BUILT_PRODUCTS_DIR}/PMSuperButton/PMSuperButton.framework",
-				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
-				"${BUILT_PRODUCTS_DIR}/RAMPaperSwitch/RAMPaperSwitch.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
-				"${BUILT_PRODUCTS_DIR}/swift_qrcodejs/swift_qrcodejs.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFQRCode.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSSAlertView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Navigation_Toolbar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMSuperButton.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMPaperSwitch.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/swift_qrcodejs.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		70E9724F7A690F09128FCECE /* [CP] Check Pods Manifest.lock */ = {
@@ -672,11 +666,13 @@
 				065B36ED224B3A3800B84F73 /* DesignView.swift in Sources */,
 				063C689622487C1D00F298AD /* AppDelegate.swift in Sources */,
 				063C689E22487C1D00F298AD /* Saving_Life_Final.xcdatamodeld in Sources */,
+				06FE3196226D7C3200F5087F /* dataCell.swift in Sources */,
 				06B7B9AA226B7D47000C0BE6 /* Profile.swift in Sources */,
 				062475C4226B75A1000FF619 /* Weather.swift in Sources */,
 				063D7898226BCFCF00603A31 /* QRView.swift in Sources */,
 				063D7894226BCFB100603A31 /* Setting.swift in Sources */,
 				06024921226CEB7900EF0701 /* naviView.swift in Sources */,
+				06A90584227058F70062FA65 /* ScanQRViewController.swift in Sources */,
 				066D47AE22534E3C007D2CFF /* Gradient.swift in Sources */,
 				06FE610C226CF8F900565B13 /* CareSetting.swift in Sources */,
 				065B36F5224CCEF900B84F73 /* GoogleSignin.swift in Sources */,
@@ -684,6 +680,7 @@
 				062475BB226B3EDB000FF619 /* WeatherGetter.swift in Sources */,
 				068361882255A7DC009F3F05 /* Choice.swift in Sources */,
 				06836184225372F8009F3F05 /* Input.swift in Sources */,
+				06FE3192226D7C1900F5087F /* homeCell.swift in Sources */,
 				06024925226CEF4E00EF0701 /* viewData.swift in Sources */,
 				066D47A922534632007D2CFF /* Welcome.swift in Sources */,
 				06B7B9B0226B8394000C0BE6 /* SeniorHome.swift in Sources */,
@@ -860,7 +857,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Saving Life Final/Saving Life Final.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 263C4C5VW3;
+				DEVELOPMENT_TEAM = 388R77ULTE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -871,8 +868,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kanyanee.Saving-Life-Final777";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kanyanee.Saving-Life-Final888";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${TARGET_NAME}/ObjCBridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -885,7 +883,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Saving Life Final/Saving Life Final.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 263C4C5VW3;
+				DEVELOPMENT_TEAM = 388R77ULTE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -896,8 +894,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kanyanee.Saving-Life-Final777";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kanyanee.Saving-Life-Final888";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${TARGET_NAME}/ObjCBridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

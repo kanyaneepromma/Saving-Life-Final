@@ -21,10 +21,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rho-2z-IcS" customClass="PMSuperButton" customModule="PMSuperButton">
-                    <rect key="frame" x="58" y="788" width="298" height="64"/>
+                    <rect key="frame" x="7" y="752" width="400" height="100"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="Rho-2z-IcS" secondAttribute="height" multiplier="1:1" constant="234" id="5id-ER-Req"/>
-                        <constraint firstAttribute="height" constant="64" id="pKu-tX-CKs"/>
+                        <constraint firstAttribute="width" constant="400" id="Gr0-1f-IN7"/>
+                        <constraint firstAttribute="height" constant="100" id="pKu-tX-CKs"/>
                     </constraints>
                     <state key="normal" backgroundImage="btn_google_signin_dark_focus_web"/>
                     <userDefinedRuntimeAttributes>
@@ -40,17 +40,18 @@
                         <action selector="ggBTN:" destination="-1" eventType="touchUpInside" id="yjZ-u6-JHk"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIe-Gy-fya">
-                    <rect key="frame" x="1" y="44" width="412" height="368"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIe-Gy-fya" customClass="DesignableLabel" customModule="Saving_Life_Final" customModuleProvider="target">
+                    <rect key="frame" x="7" y="44" width="400" height="700"/>
+                    <color key="backgroundColor" red="0.74561804529999998" green="0.85120099780000003" blue="0.97162050010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="yIe-Gy-fya" secondAttribute="height" multiplier="1:1" constant="44" id="ow8-Ij-8Z9"/>
+                        <constraint firstAttribute="width" constant="400" id="Rnt-00-Dj3"/>
+                        <constraint firstAttribute="height" constant="700" id="rgc-Nj-x5i"/>
                     </constraints>
                     <string key="text">ล็อคอินด้วย 
 Google
 Account
-จัดเก็บข้อมูลของ
-ท่านให้ปลอดภัย</string>
-                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+</string>
+                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="30"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                     <userDefinedRuntimeAttributes>
@@ -68,17 +69,13 @@ Account
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="yIe-Gy-fya" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="4Ur-5E-qd0"/>
-                <constraint firstItem="Rho-2z-IcS" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-58" id="GsJ-WB-L63"/>
-                <constraint firstItem="Rho-2z-IcS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="58" id="Itl-Bi-7nL"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Rho-2z-IcS" secondAttribute="bottom" constant="10" id="OtU-hK-luu"/>
-                <constraint firstItem="yIe-Gy-fya" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="1" id="XtM-SQ-K1o"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yIe-Gy-fya" secondAttribute="trailing" constant="1" id="ZCF-Rq-tyt"/>
-                <constraint firstItem="yIe-Gy-fya" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gHP-bd-0Kz"/>
+                <constraint firstItem="yIe-Gy-fya" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="We5-RF-mdJ"/>
+                <constraint firstItem="yIe-Gy-fya" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="aAV-oz-jaL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Rho-2z-IcS" secondAttribute="bottom" constant="10" id="jto-jy-u4o"/>
                 <constraint firstItem="Rho-2z-IcS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zi0-kk-aSO"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="137.68115942028987" y="109.15178571428571"/>
+            <point key="canvasLocation" x="136.23188405797103" y="108.48214285714285"/>
         </view>
     </objects>
     <resources>

@@ -1,0 +1,11 @@
+framework module Redbeard {
+  umbrella header "Redbeard.h"
+
+  export *
+  module * { export * }
+}
+
+module Redbeard.Swift {
+    header "Redbeard-Swift.h"
+    requires objc
+}

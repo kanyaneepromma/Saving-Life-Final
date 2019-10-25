@@ -17,6 +17,7 @@ class Input: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround() 
     }
     @IBAction func deleteBTN(_ sender: Any) {
         nameTF.text = ""
@@ -56,7 +57,7 @@ extension Input: UITextFieldDelegate{
             alert.addAction {
                 UserDefaults.standard.set("\(self.nameTF.text ?? "")", forKey: "Name")
                 UserDefaults.standard.set("\(self.telTF.text ?? "")", forKey: "Tel")
-                self.present(UINavigationController(rootViewController: GoogleSignin()), animated: true, completion: nil)
+                self.navigationController?.pushViewController(GoogleSignin(), animated: true)
             }
             alert.addCancelAction {
                 print("Edit")
@@ -75,8 +76,9 @@ extension Input: UITextFieldDelegate{
                 currentString.replacingCharacters(in: range, with: string) as NSString
             return newString.length <= maxLength
             
-            let allowedCharacters = CharacterSet(charactersIn:"0123456789")//Here change this characters based on your requirement
-            let characterSet = CharacterSet(charactersIn: string)
+            let allowedCharacters = CharacterSet(charactersIn:"0123456789")
+                let characterSet = CharacterSet(charactersIn: string)
+            
             return allowedCharacters.isSuperset(of: characterSet)
         }
         else{

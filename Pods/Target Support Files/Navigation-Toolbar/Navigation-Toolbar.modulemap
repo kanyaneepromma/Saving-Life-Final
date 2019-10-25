@@ -1,0 +1,6 @@
+framework module Navigation_Toolbar {
+  umbrella header "Navigation-Toolbar-umbrella.h"
+
+  export *
+  module * { export * }
+}
